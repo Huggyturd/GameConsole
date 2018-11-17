@@ -9,13 +9,13 @@ namespace GameConsole
     class PlayerCharacter
     {
         public string Name { get; set; }
-        public int DaysSinceLastLogin { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        public Nullable<int> DaysSinceLastLogin { get; set; }
+        public Nullable<DateTime> DateOfBirth { get; set; }
 
         public PlayerCharacter()
         {
-            DateOfBirth = DateTime.MinValue;
-            DaysSinceLastLogin = -1;
+            DateOfBirth = null;
+            DaysSinceLastLogin = null;
         }
     }
 }
