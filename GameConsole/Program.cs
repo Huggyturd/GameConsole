@@ -12,7 +12,7 @@ namespace GameConsole
         {
             var player = new PlayerCharacter();
             player.Name = "";
-            player.DaysSinceLastLogin = 42;
+            //player.DaysSinceLastLogin = 42;
 
             PlayerDisplayer.Write(player);
 
